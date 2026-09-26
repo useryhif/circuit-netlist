@@ -1,0 +1,3044 @@
+{
+  "cases": [
+    {
+      "case": "001",
+      "matched_typed_pin_incidence": 30,
+      "truth_pins": 30,
+      "predicted_pins": 30,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 10,
+      "predicted_nets": 10,
+      "paired_nets": [
+        [
+          "vout",
+          "N003",
+          3
+        ],
+        [
+          "net3",
+          "N002",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          4
+        ],
+        [
+          "net1",
+          "N001",
+          4
+        ],
+        [
+          "net6",
+          "N004",
+          5
+        ],
+        [
+          "VSS",
+          "VSS",
+          3
+        ],
+        [
+          "net4",
+          "N009",
+          3
+        ],
+        [
+          "vip",
+          "N007",
+          1
+        ],
+        [
+          "vin",
+          "N008",
+          1
+        ],
+        [
+          "net7",
+          "N005",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 0.9333,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "002",
+      "matched_typed_pin_incidence": 91,
+      "truth_pins": 106,
+      "predicted_pins": 108,
+      "proxy_recall": 0.8585,
+      "proxy_precision": 0.8426,
+      "proxy_f1": 0.8505,
+      "true_nets": 24,
+      "predicted_nets": 26,
+      "paired_nets": [
+        [
+          "net1",
+          "N001",
+          8
+        ],
+        [
+          "net10",
+          "N020",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          16
+        ],
+        [
+          "net9",
+          "N010",
+          9
+        ],
+        [
+          "net8",
+          "N014",
+          5
+        ],
+        [
+          "net7",
+          "N012",
+          4
+        ],
+        [
+          "net6",
+          "N016",
+          5
+        ],
+        [
+          "net5",
+          "N022",
+          3
+        ],
+        [
+          "net3",
+          "N021",
+          3
+        ],
+        [
+          "net36",
+          "N017",
+          2
+        ],
+        [
+          "net33",
+          "N006",
+          2
+        ],
+        [
+          "VDD",
+          "VDD",
+          9
+        ],
+        [
+          "net29",
+          "N008",
+          2
+        ],
+        [
+          "net28",
+          "N011",
+          2
+        ],
+        [
+          "net25",
+          "N013",
+          2
+        ],
+        [
+          "net23",
+          "N004",
+          2
+        ],
+        [
+          "net18",
+          "N005",
+          1
+        ],
+        [
+          "net21",
+          "N034",
+          2
+        ],
+        [
+          "net19",
+          "N027",
+          1
+        ],
+        [
+          "net16",
+          "N003",
+          2
+        ],
+        [
+          "net15",
+          "N018",
+          2
+        ],
+        [
+          "net13",
+          "N007",
+          2
+        ],
+        [
+          "net4",
+          "N028",
+          1
+        ],
+        [
+          "net2",
+          "N023",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.8505,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "003",
+      "matched_typed_pin_incidence": 24,
+      "truth_pins": 24,
+      "predicted_pins": 24,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 11,
+      "predicted_nets": 11,
+      "paired_nets": [
+        [
+          "VB",
+          "N009",
+          2
+        ],
+        [
+          "Vout",
+          "N005",
+          2
+        ],
+        [
+          "\\-5V",
+          "N010",
+          2
+        ],
+        [
+          "net4",
+          "N008",
+          3
+        ],
+        [
+          "V\\+",
+          "N007",
+          1
+        ],
+        [
+          "net3",
+          "N004",
+          3
+        ],
+        [
+          "V\\-",
+          "N006",
+          1
+        ],
+        [
+          "net2",
+          "N003",
+          3
+        ],
+        [
+          "\\5V",
+          "N001",
+          3
+        ],
+        [
+          "GND",
+          "VSS",
+          1
+        ],
+        [
+          "net1",
+          "N002",
+          3
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "004",
+      "matched_typed_pin_incidence": 14,
+      "truth_pins": 14,
+      "predicted_pins": 14,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 8,
+      "predicted_nets": 8,
+      "paired_nets": [
+        [
+          "voutp",
+          "N006",
+          2
+        ],
+        [
+          "vin",
+          "N011",
+          1
+        ],
+        [
+          "net1",
+          "N020",
+          3
+        ],
+        [
+          "voutn",
+          "N005",
+          2
+        ],
+        [
+          "vip",
+          "N014",
+          1
+        ],
+        [
+          "vcmfb",
+          "N001",
+          2
+        ],
+        [
+          "VDD",
+          "VDD",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "005",
+      "matched_typed_pin_incidence": 54,
+      "truth_pins": 59,
+      "predicted_pins": 59,
+      "proxy_recall": 0.9153,
+      "proxy_precision": 0.9153,
+      "proxy_f1": 0.9153,
+      "true_nets": 18,
+      "predicted_nets": 19,
+      "paired_nets": [
+        [
+          "net17",
+          "N018",
+          2
+        ],
+        [
+          "net4",
+          "N012",
+          4
+        ],
+        [
+          "net2",
+          "VDD",
+          6
+        ],
+        [
+          "net15",
+          "N014",
+          4
+        ],
+        [
+          "VBP2",
+          "N009",
+          1
+        ],
+        [
+          "net14",
+          "N006",
+          2
+        ],
+        [
+          "net3",
+          "N004",
+          2
+        ],
+        [
+          "net13",
+          "N015",
+          5
+        ],
+        [
+          "net8",
+          "N019",
+          3
+        ],
+        [
+          "Vi-",
+          "N008",
+          1
+        ],
+        [
+          "net1",
+          "N016",
+          1
+        ],
+        [
+          "net6",
+          "N013",
+          4
+        ],
+        [
+          "Vi+",
+          "N010",
+          1
+        ],
+        [
+          "net5",
+          "N011",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          8
+        ],
+        [
+          "net12",
+          "N020",
+          2
+        ],
+        [
+          "net10",
+          "N017",
+          2
+        ],
+        [
+          "net18",
+          "N021",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9153,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "006",
+      "matched_typed_pin_incidence": 65,
+      "truth_pins": 70,
+      "predicted_pins": 70,
+      "proxy_recall": 0.9286,
+      "proxy_precision": 0.9286,
+      "proxy_f1": 0.9286,
+      "true_nets": 18,
+      "predicted_nets": 21,
+      "paired_nets": [
+        [
+          "net15",
+          "N012",
+          3
+        ],
+        [
+          "net4",
+          "N011",
+          3
+        ],
+        [
+          "net14",
+          "N005",
+          5
+        ],
+        [
+          "net10",
+          "N018",
+          3
+        ],
+        [
+          "net1",
+          "N001",
+          8
+        ],
+        [
+          "net12",
+          "N004",
+          5
+        ],
+        [
+          "net9",
+          "N002",
+          3
+        ],
+        [
+          "net3",
+          "N010",
+          4
+        ],
+        [
+          "net7",
+          "N007",
+          4
+        ],
+        [
+          "net6",
+          "N008",
+          2
+        ],
+        [
+          "net8",
+          "N016",
+          3
+        ],
+        [
+          "net11",
+          "N014",
+          3
+        ],
+        [
+          "net2",
+          "N003",
+          3
+        ],
+        [
+          "net5",
+          "N015",
+          4
+        ],
+        [
+          "net13",
+          "N013",
+          1
+        ],
+        [
+          "net18",
+          "N017",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          8
+        ],
+        [
+          "net16",
+          "N019",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9286,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "007",
+      "matched_typed_pin_incidence": 34,
+      "truth_pins": 34,
+      "predicted_pins": 34,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 11,
+      "predicted_nets": 11,
+      "paired_nets": [
+        [
+          "VOUT\\-",
+          "N007",
+          3
+        ],
+        [
+          "net4",
+          "N008",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          3
+        ],
+        [
+          "VOUT\\+",
+          "N010",
+          3
+        ],
+        [
+          "net3",
+          "N009",
+          4
+        ],
+        [
+          "VIN\\+",
+          "N024",
+          1
+        ],
+        [
+          "net1",
+          "N022",
+          3
+        ],
+        [
+          "VIN\\-",
+          "N017",
+          1
+        ],
+        [
+          "net5",
+          "N005",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          4
+        ],
+        [
+          "net2",
+          "N006",
+          4
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "008",
+      "matched_typed_pin_incidence": 30,
+      "truth_pins": 37,
+      "predicted_pins": 37,
+      "proxy_recall": 0.8108,
+      "proxy_precision": 0.8108,
+      "proxy_f1": 0.8108,
+      "true_nets": 16,
+      "predicted_nets": 17,
+      "paired_nets": [
+        [
+          "net1",
+          "N009",
+          3
+        ],
+        [
+          "VPB1",
+          "N004",
+          2
+        ],
+        [
+          "VDD",
+          "N002",
+          2
+        ],
+        [
+          "net2",
+          "N015",
+          2
+        ],
+        [
+          "VOUT-",
+          "N029",
+          2
+        ],
+        [
+          "VPB2",
+          "N026",
+          2
+        ],
+        [
+          "VOUT+",
+          "N028",
+          2
+        ],
+        [
+          "net4",
+          "N047",
+          2
+        ],
+        [
+          "VNB2",
+          "N040",
+          2
+        ],
+        [
+          "net3",
+          "N037",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          3
+        ],
+        [
+          "VNB1",
+          "N054",
+          1
+        ],
+        [
+          "net5",
+          "N046",
+          2
+        ],
+        [
+          "VIN+",
+          "N035",
+          1
+        ],
+        [
+          "VIN-",
+          "N057",
+          1
+        ],
+        [
+          "VNB1$1",
+          "N034",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.8108,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "009",
+      "matched_typed_pin_incidence": 14,
+      "truth_pins": 16,
+      "predicted_pins": 16,
+      "proxy_recall": 0.875,
+      "proxy_precision": 0.875,
+      "proxy_f1": 0.875,
+      "true_nets": 7,
+      "predicted_nets": 7,
+      "paired_nets": [
+        [
+          "VOUT",
+          "N005",
+          4
+        ],
+        [
+          "net3",
+          "N016",
+          2
+        ],
+        [
+          "VIN",
+          "N006",
+          1
+        ],
+        [
+          "net2",
+          "N018",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          3
+        ],
+        [
+          "net1",
+          "N017",
+          2
+        ],
+        [
+          "VREF",
+          "N022",
+          0
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.875,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "010",
+      "matched_typed_pin_incidence": 53,
+      "truth_pins": 55,
+      "predicted_pins": 55,
+      "proxy_recall": 0.9636,
+      "proxy_precision": 0.9636,
+      "proxy_f1": 0.9636,
+      "true_nets": 16,
+      "predicted_nets": 17,
+      "paired_nets": [
+        [
+          "net3",
+          "N019",
+          2
+        ],
+        [
+          "net1",
+          "N014",
+          5
+        ],
+        [
+          "GND",
+          "VSS",
+          5
+        ],
+        [
+          "net16",
+          "N016",
+          2
+        ],
+        [
+          "net11",
+          "N004",
+          2
+        ],
+        [
+          "sink",
+          "N013",
+          1
+        ],
+        [
+          "net2",
+          "N009",
+          5
+        ],
+        [
+          "net15",
+          "N008",
+          7
+        ],
+        [
+          "net7",
+          "N002",
+          6
+        ],
+        [
+          "net8",
+          "N011",
+          4
+        ],
+        [
+          "net5",
+          "N017",
+          2
+        ],
+        [
+          "net12",
+          "N005",
+          2
+        ],
+        [
+          "Vsup",
+          "N001",
+          5
+        ],
+        [
+          "source",
+          "N010",
+          1
+        ],
+        [
+          "net6",
+          "N006",
+          2
+        ],
+        [
+          "net9",
+          "N003",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9636,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "011",
+      "matched_typed_pin_incidence": 32,
+      "truth_pins": 32,
+      "predicted_pins": 32,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 9,
+      "predicted_nets": 9,
+      "paired_nets": [
+        [
+          "VOUT",
+          "N010",
+          2
+        ],
+        [
+          "net4",
+          "N007",
+          6
+        ],
+        [
+          "VDD",
+          "VDD",
+          6
+        ],
+        [
+          "net3",
+          "N008",
+          6
+        ],
+        [
+          "net1",
+          "N009",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          3
+        ],
+        [
+          "VIN\\+",
+          "N016",
+          1
+        ],
+        [
+          "net5",
+          "N020",
+          3
+        ],
+        [
+          "VIN\\-",
+          "N018",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "012",
+      "matched_typed_pin_incidence": 49,
+      "truth_pins": 49,
+      "predicted_pins": 49,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 15,
+      "predicted_nets": 15,
+      "paired_nets": [
+        [
+          "VOUT",
+          "N007",
+          3
+        ],
+        [
+          "net1",
+          "N005",
+          5
+        ],
+        [
+          "net4",
+          "N004",
+          3
+        ],
+        [
+          "net5",
+          "N006",
+          4
+        ],
+        [
+          "net3",
+          "N002",
+          3
+        ],
+        [
+          "VDD",
+          "VDD",
+          4
+        ],
+        [
+          "net2",
+          "N001",
+          5
+        ],
+        [
+          "V1",
+          "N008",
+          1
+        ],
+        [
+          "net10",
+          "N011",
+          3
+        ],
+        [
+          "V2",
+          "N014",
+          1
+        ],
+        [
+          "net11",
+          "N010",
+          5
+        ],
+        [
+          "gnd",
+          "N018",
+          5
+        ],
+        [
+          "net8",
+          "N016",
+          4
+        ],
+        [
+          "net7",
+          "N017",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "013",
+      "matched_typed_pin_incidence": 80,
+      "truth_pins": 85,
+      "predicted_pins": 85,
+      "proxy_recall": 0.9412,
+      "proxy_precision": 0.9412,
+      "proxy_f1": 0.9412,
+      "true_nets": 26,
+      "predicted_nets": 30,
+      "paired_nets": [
+        [
+          "net1",
+          "N015",
+          2
+        ],
+        [
+          "net21",
+          "N003",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          9
+        ],
+        [
+          "net18",
+          "N010",
+          4
+        ],
+        [
+          "net19",
+          "N006",
+          2
+        ],
+        [
+          "net2",
+          "N014",
+          4
+        ],
+        [
+          "net9",
+          "N007",
+          3
+        ],
+        [
+          "net15",
+          "N012",
+          2
+        ],
+        [
+          "net8",
+          "N018",
+          4
+        ],
+        [
+          "Vip",
+          "N016",
+          1
+        ],
+        [
+          "net12",
+          "N005",
+          3
+        ],
+        [
+          "net7",
+          "N024",
+          3
+        ],
+        [
+          "net6",
+          "N013",
+          4
+        ],
+        [
+          "net14",
+          "N004",
+          2
+        ],
+        [
+          "net16",
+          "N008",
+          3
+        ],
+        [
+          "net20",
+          "N009",
+          3
+        ],
+        [
+          "Vbp",
+          "N017",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          8
+        ],
+        [
+          "net3",
+          "N021",
+          3
+        ],
+        [
+          "net4",
+          "N026",
+          2
+        ],
+        [
+          "Vbn",
+          "N020",
+          1
+        ],
+        [
+          "net11",
+          "N027",
+          3
+        ],
+        [
+          "net13",
+          "N028",
+          2
+        ],
+        [
+          "net10",
+          "N025",
+          3
+        ],
+        [
+          "net5",
+          "N019",
+          2
+        ],
+        [
+          "net17",
+          "N011",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9412,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "014",
+      "matched_typed_pin_incidence": 15,
+      "truth_pins": 15,
+      "predicted_pins": 15,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 5,
+      "predicted_nets": 5,
+      "paired_nets": [
+        [
+          "net1",
+          "N006",
+          3
+        ],
+        [
+          "net3",
+          "N005",
+          3
+        ],
+        [
+          "net4",
+          "N001",
+          3
+        ],
+        [
+          "net2",
+          "N013",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          4
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "015",
+      "matched_typed_pin_incidence": 8,
+      "truth_pins": 8,
+      "predicted_pins": 8,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 6,
+      "predicted_nets": 6,
+      "paired_nets": [
+        [
+          "net1",
+          "N002",
+          2
+        ],
+        [
+          "net4",
+          "N006",
+          1
+        ],
+        [
+          "net2",
+          "N009",
+          2
+        ],
+        [
+          "net3",
+          "N012",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          1
+        ],
+        [
+          "VDD",
+          "VDD",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "016",
+      "matched_typed_pin_incidence": 13,
+      "truth_pins": 13,
+      "predicted_pins": 13,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 7,
+      "predicted_nets": 7,
+      "paired_nets": [
+        [
+          "net2",
+          "N005",
+          3
+        ],
+        [
+          "net1",
+          "N003",
+          2
+        ],
+        [
+          "net3",
+          "N004",
+          2
+        ],
+        [
+          "Vi+",
+          "N006",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          2
+        ],
+        [
+          "net4",
+          "N002",
+          2
+        ],
+        [
+          "VDD",
+          "VDD",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "017",
+      "matched_typed_pin_incidence": 39,
+      "truth_pins": 44,
+      "predicted_pins": 44,
+      "proxy_recall": 0.8864,
+      "proxy_precision": 0.8864,
+      "proxy_f1": 0.8864,
+      "true_nets": 12,
+      "predicted_nets": 10,
+      "paired_nets": [
+        [
+          "GND",
+          "VSS",
+          9
+        ],
+        [
+          "net7",
+          "N004",
+          3
+        ],
+        [
+          "net2",
+          "N010",
+          4
+        ],
+        [
+          "net1",
+          "N005",
+          3
+        ],
+        [
+          "net5",
+          "N009",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          5
+        ],
+        [
+          "net3",
+          "N001",
+          3
+        ],
+        [
+          "VOUT",
+          "N006",
+          2
+        ],
+        [
+          "net4",
+          "N003",
+          5
+        ],
+        [
+          "enb",
+          "N007",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.8864,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "018",
+      "matched_typed_pin_incidence": 79,
+      "truth_pins": 85,
+      "predicted_pins": 85,
+      "proxy_recall": 0.9294,
+      "proxy_precision": 0.9294,
+      "proxy_f1": 0.9294,
+      "true_nets": 22,
+      "predicted_nets": 26,
+      "paired_nets": [
+        [
+          "net9",
+          "N006",
+          2
+        ],
+        [
+          "net2",
+          "N002",
+          8
+        ],
+        [
+          "VDD",
+          "VDD",
+          7
+        ],
+        [
+          "Vref",
+          "N012",
+          2
+        ],
+        [
+          "net4",
+          "N009",
+          9
+        ],
+        [
+          "net8",
+          "N005",
+          2
+        ],
+        [
+          "net7",
+          "N004",
+          2
+        ],
+        [
+          "net1",
+          "N023",
+          5
+        ],
+        [
+          "net18",
+          "N003",
+          2
+        ],
+        [
+          "net17",
+          "N010",
+          4
+        ],
+        [
+          "net13",
+          "N011",
+          4
+        ],
+        [
+          "net16",
+          "N007",
+          2
+        ],
+        [
+          "net15",
+          "N013",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          12
+        ],
+        [
+          "net14",
+          "N008",
+          2
+        ],
+        [
+          "net10",
+          "N016",
+          2
+        ],
+        [
+          "net11",
+          "N018",
+          2
+        ],
+        [
+          "net6",
+          "N015",
+          2
+        ],
+        [
+          "net5",
+          "N019",
+          2
+        ],
+        [
+          "net20",
+          "N020",
+          2
+        ],
+        [
+          "net12",
+          "N017",
+          2
+        ],
+        [
+          "net3",
+          "N022",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9294,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "019",
+      "matched_typed_pin_incidence": 15,
+      "truth_pins": 15,
+      "predicted_pins": 15,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 5,
+      "predicted_nets": 5,
+      "paired_nets": [
+        [
+          "2",
+          "N005",
+          3
+        ],
+        [
+          "3",
+          "N006",
+          3
+        ],
+        [
+          "1",
+          "N001",
+          3
+        ],
+        [
+          "4",
+          "N009",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          4
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "020",
+      "matched_typed_pin_incidence": 34,
+      "truth_pins": 34,
+      "predicted_pins": 34,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 10,
+      "predicted_nets": 10,
+      "paired_nets": [
+        [
+          "net4",
+          "N016",
+          4
+        ],
+        [
+          "net5",
+          "N027",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          5
+        ],
+        [
+          "VO",
+          "N018",
+          2
+        ],
+        [
+          "net6",
+          "N026",
+          4
+        ],
+        [
+          "net7",
+          "N015",
+          5
+        ],
+        [
+          "net11",
+          "N024",
+          1
+        ],
+        [
+          "net9",
+          "N025",
+          1
+        ],
+        [
+          "net2",
+          "N014",
+          4
+        ],
+        [
+          "net1",
+          "VDD",
+          4
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "021",
+      "matched_typed_pin_incidence": 27,
+      "truth_pins": 32,
+      "predicted_pins": 32,
+      "proxy_recall": 0.8438,
+      "proxy_precision": 0.8438,
+      "proxy_f1": 0.8438,
+      "true_nets": 10,
+      "predicted_nets": 11,
+      "paired_nets": [
+        [
+          "net2",
+          "N004",
+          5
+        ],
+        [
+          "VDD",
+          "VDD",
+          5
+        ],
+        [
+          "GND",
+          "N009",
+          2
+        ],
+        [
+          "net9",
+          "N006",
+          3
+        ],
+        [
+          "net3",
+          "N001",
+          4
+        ],
+        [
+          "vi",
+          "VSS",
+          1
+        ],
+        [
+          "net5",
+          "N002",
+          3
+        ],
+        [
+          "net6",
+          "N003",
+          3
+        ],
+        [
+          "vo",
+          "N007",
+          1
+        ],
+        [
+          "vo+",
+          "N008",
+          0
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.8438,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "022",
+      "matched_typed_pin_incidence": 33,
+      "truth_pins": 37,
+      "predicted_pins": 48,
+      "proxy_recall": 0.8919,
+      "proxy_precision": 0.6875,
+      "proxy_f1": 0.7765,
+      "true_nets": 16,
+      "predicted_nets": 20,
+      "paired_nets": [
+        [
+          "VOUT+",
+          "N011",
+          3
+        ],
+        [
+          "Vbias3",
+          "N015",
+          1
+        ],
+        [
+          "net5",
+          "N023",
+          2
+        ],
+        [
+          "Vbias4",
+          "N016",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          5
+        ],
+        [
+          "VOUT-",
+          "N010",
+          3
+        ],
+        [
+          "net9",
+          "N024",
+          2
+        ],
+        [
+          "net2",
+          "N005",
+          3
+        ],
+        [
+          "VIN-",
+          "N018",
+          1
+        ],
+        [
+          "net7",
+          "N019",
+          3
+        ],
+        [
+          "net3",
+          "N006",
+          3
+        ],
+        [
+          "VIN+",
+          "N026",
+          1
+        ],
+        [
+          "Vbias6",
+          "N027",
+          1
+        ],
+        [
+          "Vbias1",
+          "N008",
+          1
+        ],
+        [
+          "VDD",
+          "N001",
+          2
+        ],
+        [
+          "Vbias2",
+          "N004",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.7765,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "023",
+      "matched_typed_pin_incidence": 56,
+      "truth_pins": 68,
+      "predicted_pins": 62,
+      "proxy_recall": 0.8235,
+      "proxy_precision": 0.9032,
+      "proxy_f1": 0.8615,
+      "true_nets": 16,
+      "predicted_nets": 18,
+      "paired_nets": [
+        [
+          "net4",
+          "N041",
+          8
+        ],
+        [
+          "VDD",
+          "VDD",
+          6
+        ],
+        [
+          "net3",
+          "N036",
+          2
+        ],
+        [
+          "net2",
+          "N031",
+          7
+        ],
+        [
+          "net5",
+          "N035",
+          2
+        ],
+        [
+          "net6",
+          "N033",
+          2
+        ],
+        [
+          "net7",
+          "N037",
+          2
+        ],
+        [
+          "net8",
+          "N034",
+          2
+        ],
+        [
+          "net9",
+          "N050",
+          2
+        ],
+        [
+          "net12",
+          "N043",
+          3
+        ],
+        [
+          "net14",
+          "N051",
+          2
+        ],
+        [
+          "VREF",
+          "N044",
+          2
+        ],
+        [
+          "net13",
+          "N057",
+          4
+        ],
+        [
+          "OPO",
+          "N053",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          7
+        ],
+        [
+          "net15",
+          "N062",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.8615,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "024",
+      "matched_typed_pin_incidence": 9,
+      "truth_pins": 11,
+      "predicted_pins": 13,
+      "proxy_recall": 0.8182,
+      "proxy_precision": 0.6923,
+      "proxy_f1": 0.75,
+      "true_nets": 7,
+      "predicted_nets": 7,
+      "paired_nets": [
+        [
+          "Vx",
+          "N007",
+          2
+        ],
+        [
+          "Vref",
+          "N004",
+          0
+        ],
+        [
+          "1",
+          "N006",
+          2
+        ],
+        [
+          "VIN",
+          "N012",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          1
+        ],
+        [
+          "VOUT",
+          "N001",
+          2
+        ],
+        [
+          "VDD",
+          "VDD",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.75,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "025",
+      "matched_typed_pin_incidence": 11,
+      "truth_pins": 11,
+      "predicted_pins": 11,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 6,
+      "predicted_nets": 6,
+      "paired_nets": [
+        [
+          "1",
+          "N007",
+          3
+        ],
+        [
+          "V1",
+          "N006",
+          1
+        ],
+        [
+          "Voutamp",
+          "N008",
+          2
+        ],
+        [
+          "2",
+          "N015",
+          3
+        ],
+        [
+          "V2",
+          "N014",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "026",
+      "matched_typed_pin_incidence": 17,
+      "truth_pins": 17,
+      "predicted_pins": 17,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 8,
+      "predicted_nets": 8,
+      "paired_nets": [
+        [
+          "2",
+          "N045",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          3
+        ],
+        [
+          "VOUT",
+          "N028",
+          2
+        ],
+        [
+          "VG1",
+          "N024",
+          1
+        ],
+        [
+          "3",
+          "N007",
+          3
+        ],
+        [
+          "VG2",
+          "N017",
+          1
+        ],
+        [
+          "VBIAS",
+          "N006",
+          2
+        ],
+        [
+          "VDD",
+          "N004",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "027",
+      "matched_typed_pin_incidence": 33,
+      "truth_pins": 35,
+      "predicted_pins": 35,
+      "proxy_recall": 0.9429,
+      "proxy_precision": 0.9429,
+      "proxy_f1": 0.9429,
+      "true_nets": 17,
+      "predicted_nets": 18,
+      "paired_nets": [
+        [
+          "16",
+          "N019",
+          3
+        ],
+        [
+          "14",
+          "N018",
+          3
+        ],
+        [
+          "15",
+          "N024",
+          1
+        ],
+        [
+          "13",
+          "N017",
+          2
+        ],
+        [
+          "9",
+          "N006",
+          3
+        ],
+        [
+          "10",
+          "N007",
+          3
+        ],
+        [
+          "11",
+          "N009",
+          2
+        ],
+        [
+          "12",
+          "N010",
+          2
+        ],
+        [
+          "V1",
+          "N005",
+          2
+        ],
+        [
+          "VDD",
+          "VDD",
+          2
+        ],
+        [
+          "Vout+",
+          "N013",
+          2
+        ],
+        [
+          "8",
+          "N023",
+          3
+        ],
+        [
+          "VCMFB",
+          "N020",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          1
+        ],
+        [
+          "Vout-",
+          "N011",
+          1
+        ],
+        [
+          "Vin+",
+          "N014",
+          1
+        ],
+        [
+          "Vin-",
+          "N021",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9429,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "028",
+      "matched_typed_pin_incidence": 30,
+      "truth_pins": 30,
+      "predicted_pins": 30,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 9,
+      "predicted_nets": 9,
+      "paired_nets": [
+        [
+          "1",
+          "N016",
+          3
+        ],
+        [
+          "6",
+          "N013",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          3
+        ],
+        [
+          "7",
+          "N018",
+          3
+        ],
+        [
+          "Vref",
+          "N017",
+          2
+        ],
+        [
+          "3",
+          "N030",
+          3
+        ],
+        [
+          "GND",
+          "VSS",
+          7
+        ],
+        [
+          "2",
+          "N042",
+          2
+        ],
+        [
+          "4",
+          "N029",
+          3
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "029",
+      "matched_typed_pin_incidence": 33,
+      "truth_pins": 33,
+      "predicted_pins": 33,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 10,
+      "predicted_nets": 10,
+      "paired_nets": [
+        [
+          "net3",
+          "N005",
+          5
+        ],
+        [
+          "VDD",
+          "VDD",
+          3
+        ],
+        [
+          "net4",
+          "N007",
+          3
+        ],
+        [
+          "Vout",
+          "N006",
+          4
+        ],
+        [
+          "net6",
+          "N012",
+          4
+        ],
+        [
+          "Vin1-",
+          "N009",
+          1
+        ],
+        [
+          "net7",
+          "N008",
+          4
+        ],
+        [
+          "Vin2+",
+          "N010",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          5
+        ],
+        [
+          "net8",
+          "N013",
+          3
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 0.8788,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "030",
+      "matched_typed_pin_incidence": 35,
+      "truth_pins": 35,
+      "predicted_pins": 35,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 10,
+      "predicted_nets": 10,
+      "paired_nets": [
+        [
+          "v3",
+          "N012",
+          3
+        ],
+        [
+          "net1",
+          "N010",
+          5
+        ],
+        [
+          "VDD",
+          "N002",
+          4
+        ],
+        [
+          "net2",
+          "N004",
+          5
+        ],
+        [
+          "v4",
+          "N011",
+          3
+        ],
+        [
+          "v2",
+          "N023",
+          2
+        ],
+        [
+          "net3",
+          "N028",
+          5
+        ],
+        [
+          "v1",
+          "N024",
+          2
+        ],
+        [
+          "VBIAS",
+          "N034",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          5
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "031",
+      "matched_typed_pin_incidence": 33,
+      "truth_pins": 33,
+      "predicted_pins": 33,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 12,
+      "predicted_nets": 12,
+      "paired_nets": [
+        [
+          "net3",
+          "N016",
+          3
+        ],
+        [
+          "VB1",
+          "N019",
+          1
+        ],
+        [
+          "VDD",
+          "VDD",
+          5
+        ],
+        [
+          "VO",
+          "N009",
+          2
+        ],
+        [
+          "net1",
+          "N006",
+          4
+        ],
+        [
+          "net2",
+          "N010",
+          3
+        ],
+        [
+          "VB1$1",
+          "N008",
+          2
+        ],
+        [
+          "net4",
+          "N011",
+          4
+        ],
+        [
+          "VSS",
+          "VSS",
+          4
+        ],
+        [
+          "VIN",
+          "N022",
+          1
+        ],
+        [
+          "VIP",
+          "N007",
+          1
+        ],
+        [
+          "net5",
+          "N017",
+          3
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "032",
+      "matched_typed_pin_incidence": 21,
+      "truth_pins": 23,
+      "predicted_pins": 23,
+      "proxy_recall": 0.913,
+      "proxy_precision": 0.913,
+      "proxy_f1": 0.913,
+      "true_nets": 9,
+      "predicted_nets": 9,
+      "paired_nets": [
+        [
+          "Vref",
+          "N003",
+          2
+        ],
+        [
+          "net1",
+          "N001",
+          3
+        ],
+        [
+          "VDD",
+          "VDD",
+          2
+        ],
+        [
+          "net2",
+          "N002",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          4
+        ],
+        [
+          "net5",
+          "N008",
+          2
+        ],
+        [
+          "net6",
+          "N030",
+          2
+        ],
+        [
+          "net4",
+          "N009",
+          2
+        ],
+        [
+          "net3",
+          "N010",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.913,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "033",
+      "matched_typed_pin_incidence": 32,
+      "truth_pins": 34,
+      "predicted_pins": 34,
+      "proxy_recall": 0.9412,
+      "proxy_precision": 0.9412,
+      "proxy_f1": 0.9412,
+      "true_nets": 9,
+      "predicted_nets": 10,
+      "paired_nets": [
+        [
+          "vout",
+          "N024",
+          4
+        ],
+        [
+          "net2",
+          "N004",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          5
+        ],
+        [
+          "net1",
+          "N006",
+          4
+        ],
+        [
+          "net5",
+          "N007",
+          4
+        ],
+        [
+          "GND",
+          "N041",
+          4
+        ],
+        [
+          "vin+",
+          "N025",
+          1
+        ],
+        [
+          "net3",
+          "N029",
+          2
+        ],
+        [
+          "net4",
+          "N015",
+          4
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9412,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "034",
+      "matched_typed_pin_incidence": 24,
+      "truth_pins": 24,
+      "predicted_pins": 24,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 9,
+      "predicted_nets": 9,
+      "paired_nets": [
+        [
+          "VREF",
+          "N012",
+          1
+        ],
+        [
+          "net5",
+          "N020",
+          3
+        ],
+        [
+          "net4",
+          "N016",
+          2
+        ],
+        [
+          "net1",
+          "N011",
+          3
+        ],
+        [
+          "net2",
+          "N006",
+          3
+        ],
+        [
+          "VDD",
+          "VDD",
+          3
+        ],
+        [
+          "net3",
+          "N005",
+          4
+        ],
+        [
+          "GND",
+          "VSS",
+          4
+        ],
+        [
+          "VBias",
+          "N015",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "035",
+      "matched_typed_pin_incidence": 48,
+      "truth_pins": 48,
+      "predicted_pins": 48,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 16,
+      "predicted_nets": 16,
+      "paired_nets": [
+        [
+          "net3",
+          "N005",
+          2
+        ],
+        [
+          "net1",
+          "N002",
+          4
+        ],
+        [
+          "VDD",
+          "N001",
+          4
+        ],
+        [
+          "net2",
+          "N003",
+          4
+        ],
+        [
+          "net4",
+          "N004",
+          2
+        ],
+        [
+          "net7",
+          "N012",
+          4
+        ],
+        [
+          "net5",
+          "N008",
+          4
+        ],
+        [
+          "net6",
+          "N007",
+          4
+        ],
+        [
+          "P1",
+          "N011",
+          2
+        ],
+        [
+          "v-",
+          "N013",
+          1
+        ],
+        [
+          "net8",
+          "N017",
+          3
+        ],
+        [
+          "v+",
+          "N014",
+          1
+        ],
+        [
+          "net9",
+          "N020",
+          4
+        ],
+        [
+          "net10",
+          "N021",
+          2
+        ],
+        [
+          "Ibias",
+          "N018",
+          3
+        ],
+        [
+          "GND",
+          "VSS",
+          4
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "036",
+      "matched_typed_pin_incidence": 32,
+      "truth_pins": 35,
+      "predicted_pins": 35,
+      "proxy_recall": 0.9143,
+      "proxy_precision": 0.9143,
+      "proxy_f1": 0.9143,
+      "true_nets": 11,
+      "predicted_nets": 10,
+      "paired_nets": [
+        [
+          "2",
+          "N009",
+          4
+        ],
+        [
+          "IN+",
+          "N005",
+          1
+        ],
+        [
+          "3",
+          "N010",
+          4
+        ],
+        [
+          "IN-",
+          "N007",
+          1
+        ],
+        [
+          "4",
+          "N001",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          4
+        ],
+        [
+          "5",
+          "N002",
+          4
+        ],
+        [
+          "OUT",
+          "N003",
+          3
+        ],
+        [
+          "GND",
+          "VSS",
+          5
+        ],
+        [
+          "6",
+          "N006",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.9143,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "037",
+      "matched_typed_pin_incidence": 17,
+      "truth_pins": 17,
+      "predicted_pins": 17,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 6,
+      "predicted_nets": 6,
+      "paired_nets": [
+        [
+          "2",
+          "N003",
+          3
+        ],
+        [
+          "VDD",
+          "N001",
+          3
+        ],
+        [
+          "4",
+          "N002",
+          3
+        ],
+        [
+          "5",
+          "N005",
+          2
+        ],
+        [
+          "3",
+          "N004",
+          2
+        ],
+        [
+          "GND",
+          "VSS",
+          4
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "038",
+      "matched_typed_pin_incidence": 63,
+      "truth_pins": 63,
+      "predicted_pins": 63,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 16,
+      "predicted_nets": 16,
+      "paired_nets": [
+        [
+          "net9",
+          "N006",
+          4
+        ],
+        [
+          "net14",
+          "N010",
+          3
+        ],
+        [
+          "GND",
+          "VSS",
+          9
+        ],
+        [
+          "net10",
+          "N014",
+          2
+        ],
+        [
+          "net2",
+          "N003",
+          4
+        ],
+        [
+          "VDD",
+          "VDD",
+          7
+        ],
+        [
+          "net3",
+          "N005",
+          2
+        ],
+        [
+          "net6",
+          "N008",
+          4
+        ],
+        [
+          "net7",
+          "N004",
+          5
+        ],
+        [
+          "net8",
+          "N002",
+          4
+        ],
+        [
+          "net4",
+          "N001",
+          4
+        ],
+        [
+          "net5",
+          "N011",
+          8
+        ],
+        [
+          "Vi-",
+          "N009",
+          1
+        ],
+        [
+          "net12",
+          "N012",
+          3
+        ],
+        [
+          "Vi+",
+          "N007",
+          1
+        ],
+        [
+          "net13",
+          "N013",
+          2
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    },
+    {
+      "case": "039",
+      "matched_typed_pin_incidence": 65,
+      "truth_pins": 87,
+      "predicted_pins": 84,
+      "proxy_recall": 0.7471,
+      "proxy_precision": 0.7738,
+      "proxy_f1": 0.7602,
+      "true_nets": 27,
+      "predicted_nets": 23,
+      "paired_nets": [
+        [
+          "net2",
+          "N003",
+          1
+        ],
+        [
+          "V+",
+          "N001",
+          6
+        ],
+        [
+          "net4",
+          "N017",
+          3
+        ],
+        [
+          "net10",
+          "N002",
+          3
+        ],
+        [
+          "net12",
+          "N004",
+          6
+        ],
+        [
+          "19",
+          "N013",
+          1
+        ],
+        [
+          "net6",
+          "N012",
+          1
+        ],
+        [
+          "net8",
+          "N019",
+          4
+        ],
+        [
+          "net17",
+          "N027",
+          2
+        ],
+        [
+          "NON-INVERTING INPUT",
+          "N007",
+          1
+        ],
+        [
+          "INVERTING INPUT",
+          "N010",
+          1
+        ],
+        [
+          "net7",
+          "N005",
+          4
+        ],
+        [
+          "1",
+          "N023",
+          2
+        ],
+        [
+          "5",
+          "N026",
+          2
+        ],
+        [
+          "net11",
+          "N024",
+          1
+        ],
+        [
+          "net20",
+          "N028",
+          2
+        ],
+        [
+          "net9",
+          "VSS",
+          8
+        ],
+        [
+          "net13",
+          "N011",
+          3
+        ],
+        [
+          "net14",
+          "N016",
+          4
+        ],
+        [
+          "net18",
+          "N015",
+          3
+        ],
+        [
+          "net15",
+          "N006",
+          3
+        ],
+        [
+          "net16",
+          "N020",
+          3
+        ],
+        [
+          "net19",
+          "N021",
+          1
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": false,
+      "strict_proxy_f1": 0.7602,
+      "strict_exact_typed_pin_graph_isomorphic": false
+    },
+    {
+      "case": "040",
+      "matched_typed_pin_incidence": 14,
+      "truth_pins": 14,
+      "predicted_pins": 14,
+      "proxy_recall": 1.0,
+      "proxy_precision": 1.0,
+      "proxy_f1": 1.0,
+      "true_nets": 6,
+      "predicted_nets": 6,
+      "paired_nets": [
+        [
+          "VREF",
+          "N005",
+          1
+        ],
+        [
+          "2",
+          "N009",
+          3
+        ],
+        [
+          "1",
+          "N006",
+          2
+        ],
+        [
+          "VOUT",
+          "N008",
+          4
+        ],
+        [
+          "VIN",
+          "N002",
+          1
+        ],
+        [
+          "GND",
+          "VSS",
+          3
+        ]
+      ],
+      "exact_typed_pin_graph_isomorphic": true,
+      "strict_proxy_f1": 1.0,
+      "strict_exact_typed_pin_graph_isomorphic": true
+    }
+  ],
+  "mean_proxy_f1": 0.9451,
+  "exact_isomorphic_count": 22,
+  "mean_strict_proxy_f1": 0.9404,
+  "strict_exact_isomorphic_count": 20,
+  "metric_note": "proxy_f1 and exact use EDA's symmetric relation for Res/Cap/Ind/Switch; strict_* preserves Pos/Neg labels."
+}

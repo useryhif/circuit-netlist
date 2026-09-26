@@ -1,0 +1,249 @@
+{
+  "cases": [
+    {
+      "case": "001",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "002",
+      "lower": 2,
+      "upper": 35,
+      "type_correct": true
+    },
+    {
+      "case": "003",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "004",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "005",
+      "lower": 1,
+      "upper": 10,
+      "type_correct": true
+    },
+    {
+      "case": "006",
+      "lower": 3,
+      "upper": 10,
+      "type_correct": true
+    },
+    {
+      "case": "007",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "008",
+      "lower": 1,
+      "upper": 14,
+      "type_correct": true
+    },
+    {
+      "case": "009",
+      "lower": 0,
+      "upper": 4,
+      "type_correct": true
+    },
+    {
+      "case": "010",
+      "lower": 1,
+      "upper": 4,
+      "type_correct": true
+    },
+    {
+      "case": "011",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "012",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "013",
+      "lower": 4,
+      "upper": 10,
+      "type_correct": true
+    },
+    {
+      "case": "014",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "015",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "016",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "017",
+      "lower": 2,
+      "upper": 10,
+      "type_correct": true
+    },
+    {
+      "case": "018",
+      "lower": 4,
+      "upper": 12,
+      "type_correct": true
+    },
+    {
+      "case": "019",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "020",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "021",
+      "lower": 1,
+      "upper": 10,
+      "type_correct": true
+    },
+    {
+      "case": "022",
+      "lower": 11,
+      "upper": 19,
+      "type_correct": true
+    },
+    {
+      "case": "023",
+      "lower": 6,
+      "upper": 22,
+      "type_correct": true
+    },
+    {
+      "case": "024",
+      "lower": 2,
+      "upper": 6,
+      "type_correct": true
+    },
+    {
+      "case": "025",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "026",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "027",
+      "lower": 1,
+      "upper": 4,
+      "type_correct": true
+    },
+    {
+      "case": "028",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "029",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "030",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "031",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "032",
+      "lower": 0,
+      "upper": 4,
+      "type_correct": true
+    },
+    {
+      "case": "033",
+      "lower": 1,
+      "upper": 4,
+      "type_correct": true
+    },
+    {
+      "case": "034",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "035",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "036",
+      "lower": 1,
+      "upper": 6,
+      "type_correct": true
+    },
+    {
+      "case": "037",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "038",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    },
+    {
+      "case": "039",
+      "lower": 4,
+      "upper": 46,
+      "type_correct": true
+    },
+    {
+      "case": "040",
+      "lower": 0,
+      "upper": 0,
+      "type_correct": true
+    }
+  ],
+  "sum_lower": 45,
+  "sum_upper": 230,
+  "k_lower": 0.4201,
+  "k_upper": 0.5746,
+  "function_accuracy": 1.0
+}

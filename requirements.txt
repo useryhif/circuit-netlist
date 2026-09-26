@@ -1,0 +1,9 @@
+numpy==1.26.4
+opencv-python==4.10.0.84
+scipy==1.14.1
+networkx==3.3
+torch==2.14.0
+torchvision==0.29.0
+ultralytics==8.4.162
+PyYAML>=6,<7
+thop>=0.1.1

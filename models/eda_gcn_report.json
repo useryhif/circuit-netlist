@@ -1,0 +1,1231 @@
+{
+  "samples": 40,
+  "class_counts": {
+    "Bandgap": 8,
+    "Comparator": 5,
+    "DIDO-Amplifier": 5,
+    "DISO-Amplifier": 14,
+    "LDO": 6,
+    "SISO-Amplifier": 2
+  },
+  "repeats": 5,
+  "folds": 5,
+  "class_weighted": true,
+  "ablation": "full",
+  "stratified_cv_accuracy": 0.555,
+  "stratified_cv_accuracy_std": 0.0534,
+  "stratified_cv_per_repeat": [
+    0.625,
+    0.55,
+    0.475,
+    0.6,
+    0.525
+  ],
+  "generated_netlist_accuracy": 0.53,
+  "generated_netlist_accuracy_std": 0.051,
+  "generated_netlist_cases": 40,
+  "fold_predictions": [
+    {
+      "image": "001",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 1
+    },
+    {
+      "image": "002",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "003",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "004",
+      "true": "DIDO-Amplifier",
+      "predicted": "SISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "005",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "006",
+      "true": "LDO",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "007",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "008",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "009",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 1
+    },
+    {
+      "image": "010",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "011",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "012",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "013",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 1
+    },
+    {
+      "image": "014",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "015",
+      "true": "SISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "016",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 1
+    },
+    {
+      "image": "017",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "018",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "019",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "020",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "021",
+      "true": "Comparator",
+      "predicted": "Comparator",
+      "repeat": 1
+    },
+    {
+      "image": "022",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "023",
+      "true": "Bandgap",
+      "predicted": "LDO",
+      "repeat": 1
+    },
+    {
+      "image": "024",
+      "true": "LDO",
+      "predicted": "SISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "025",
+      "true": "DISO-Amplifier",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "026",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "027",
+      "true": "DIDO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "028",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "029",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "030",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "031",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "032",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "033",
+      "true": "SISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "034",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 1
+    },
+    {
+      "image": "035",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "036",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "037",
+      "true": "Comparator",
+      "predicted": "Bandgap",
+      "repeat": 1
+    },
+    {
+      "image": "038",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 1
+    },
+    {
+      "image": "039",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 1
+    },
+    {
+      "image": "040",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 1
+    },
+    {
+      "image": "001",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 2
+    },
+    {
+      "image": "002",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "003",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "004",
+      "true": "DIDO-Amplifier",
+      "predicted": "SISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "005",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "006",
+      "true": "LDO",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "007",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "008",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "009",
+      "true": "LDO",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "010",
+      "true": "Bandgap",
+      "predicted": "Comparator",
+      "repeat": 2
+    },
+    {
+      "image": "011",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "012",
+      "true": "DISO-Amplifier",
+      "predicted": "SISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "013",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "014",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "015",
+      "true": "SISO-Amplifier",
+      "predicted": "LDO",
+      "repeat": 2
+    },
+    {
+      "image": "016",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 2
+    },
+    {
+      "image": "017",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "018",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "019",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "020",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "021",
+      "true": "Comparator",
+      "predicted": "Comparator",
+      "repeat": 2
+    },
+    {
+      "image": "022",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "023",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "024",
+      "true": "LDO",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "025",
+      "true": "DISO-Amplifier",
+      "predicted": "LDO",
+      "repeat": 2
+    },
+    {
+      "image": "026",
+      "true": "DISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "027",
+      "true": "DIDO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "028",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "029",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "030",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "031",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "032",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "033",
+      "true": "SISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "034",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 2
+    },
+    {
+      "image": "035",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 2
+    },
+    {
+      "image": "036",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "037",
+      "true": "Comparator",
+      "predicted": "Bandgap",
+      "repeat": 2
+    },
+    {
+      "image": "038",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 2
+    },
+    {
+      "image": "039",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 2
+    },
+    {
+      "image": "040",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 2
+    },
+    {
+      "image": "001",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 3
+    },
+    {
+      "image": "002",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "003",
+      "true": "Comparator",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "004",
+      "true": "DIDO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "005",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 3
+    },
+    {
+      "image": "006",
+      "true": "LDO",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "007",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "008",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "009",
+      "true": "LDO",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "010",
+      "true": "Bandgap",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "011",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "012",
+      "true": "DISO-Amplifier",
+      "predicted": "SISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "013",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "014",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "015",
+      "true": "SISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "016",
+      "true": "LDO",
+      "predicted": "Comparator",
+      "repeat": 3
+    },
+    {
+      "image": "017",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "018",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "019",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "020",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "021",
+      "true": "Comparator",
+      "predicted": "Comparator",
+      "repeat": 3
+    },
+    {
+      "image": "022",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "023",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "024",
+      "true": "LDO",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "025",
+      "true": "DISO-Amplifier",
+      "predicted": "LDO",
+      "repeat": 3
+    },
+    {
+      "image": "026",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "027",
+      "true": "DIDO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "028",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "029",
+      "true": "DISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "030",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "031",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "032",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "033",
+      "true": "SISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "034",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 3
+    },
+    {
+      "image": "035",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 3
+    },
+    {
+      "image": "036",
+      "true": "DISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "037",
+      "true": "Comparator",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "038",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 3
+    },
+    {
+      "image": "039",
+      "true": "DISO-Amplifier",
+      "predicted": "Bandgap",
+      "repeat": 3
+    },
+    {
+      "image": "040",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 3
+    },
+    {
+      "image": "001",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 4
+    },
+    {
+      "image": "002",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "003",
+      "true": "Comparator",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "004",
+      "true": "DIDO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "005",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "006",
+      "true": "LDO",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "007",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "008",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "009",
+      "true": "LDO",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "010",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "011",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "012",
+      "true": "DISO-Amplifier",
+      "predicted": "SISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "013",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "014",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "015",
+      "true": "SISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "016",
+      "true": "LDO",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "017",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "018",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "019",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "020",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "021",
+      "true": "Comparator",
+      "predicted": "Comparator",
+      "repeat": 4
+    },
+    {
+      "image": "022",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "023",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "024",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 4
+    },
+    {
+      "image": "025",
+      "true": "DISO-Amplifier",
+      "predicted": "LDO",
+      "repeat": 4
+    },
+    {
+      "image": "026",
+      "true": "DISO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "027",
+      "true": "DIDO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "028",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "029",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "030",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "031",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "032",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 4
+    },
+    {
+      "image": "033",
+      "true": "SISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "034",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 4
+    },
+    {
+      "image": "035",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "036",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "037",
+      "true": "Comparator",
+      "predicted": "LDO",
+      "repeat": 4
+    },
+    {
+      "image": "038",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 4
+    },
+    {
+      "image": "039",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 4
+    },
+    {
+      "image": "040",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 4
+    },
+    {
+      "image": "001",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 5
+    },
+    {
+      "image": "002",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "003",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "004",
+      "true": "DIDO-Amplifier",
+      "predicted": "SISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "005",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "006",
+      "true": "LDO",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "007",
+      "true": "Comparator",
+      "predicted": "LDO",
+      "repeat": 5
+    },
+    {
+      "image": "008",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "009",
+      "true": "LDO",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "010",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "011",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "012",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 5
+    },
+    {
+      "image": "013",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 5
+    },
+    {
+      "image": "014",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "015",
+      "true": "SISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 5
+    },
+    {
+      "image": "016",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 5
+    },
+    {
+      "image": "017",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "018",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "019",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "020",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "021",
+      "true": "Comparator",
+      "predicted": "Comparator",
+      "repeat": 5
+    },
+    {
+      "image": "022",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "023",
+      "true": "Bandgap",
+      "predicted": "LDO",
+      "repeat": 5
+    },
+    {
+      "image": "024",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 5
+    },
+    {
+      "image": "025",
+      "true": "DISO-Amplifier",
+      "predicted": "LDO",
+      "repeat": 5
+    },
+    {
+      "image": "026",
+      "true": "DISO-Amplifier",
+      "predicted": "LDO",
+      "repeat": 5
+    },
+    {
+      "image": "027",
+      "true": "DIDO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "028",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "029",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "030",
+      "true": "DIDO-Amplifier",
+      "predicted": "DIDO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "031",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "032",
+      "true": "Bandgap",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "033",
+      "true": "SISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "034",
+      "true": "LDO",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "035",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 5
+    },
+    {
+      "image": "036",
+      "true": "DISO-Amplifier",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "037",
+      "true": "Comparator",
+      "predicted": "Bandgap",
+      "repeat": 5
+    },
+    {
+      "image": "038",
+      "true": "Comparator",
+      "predicted": "DISO-Amplifier",
+      "repeat": 5
+    },
+    {
+      "image": "039",
+      "true": "DISO-Amplifier",
+      "predicted": "Comparator",
+      "repeat": 5
+    },
+    {
+      "image": "040",
+      "true": "LDO",
+      "predicted": "LDO",
+      "repeat": 5
+    }
+  ],
+  "note": "Only 40 public labelled circuits. Cross-validated models never see the evaluated circuit; the generated-netlist score reuses those held-out models on the pipeline's own output.",
+  "model": "models/eda_gcn.pt"
+}

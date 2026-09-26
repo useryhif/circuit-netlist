@@ -1,0 +1,23 @@
+# Runtime environment and caches
+.venv/
+.config/
+__pycache__/
+*.pyc
+
+# Third-party code, dataset and detector weights (not published: licensing and size)
+external/
+tmp_crops/
+data/
+models/*.pt
+
+# Batch artifacts: publish summary statistics and result charts only
+output/*
+!output/final/
+output/final/*
+!output/final/charts/
+!output/final/charts/*.png
+!output/final/batch_report.json
+!output/final/connection_diagnostic.json
+!output/final/format_validation.json
+!output/final/ged_bounds.json
+!output/final/qa_summary.md
