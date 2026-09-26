@@ -184,16 +184,3 @@ component references printed on the drawing (the output format itself does not s
 - `validate_eda_outputs.py` checks the dictionary structure, component types, port names and net
   names.
 
-## Limitations
-
-- Component orientation is inferred from detector boxes. Rotated parts, box offsets and closely
-  spaced terminals can mis-map a port, and the detector itself can miss or duplicate components.
-- The junction, stub and bottom-rail rules were calibrated on this dataset's drawing conventions
-  (light printed wiring, node-style junctions); other drawing styles need recalibration.
-- A netlist only contains components whose ports were all mapped; incomplete components are omitted
-  and listed in `debug/topology.json` under `warnings`.
-- `ged_metric.py` and `evaluate_connections.py` are self-built metrics: the first is an approximate
-  graph edit distance reported as bounds, the second is a node-port proxy that ignores component
-  identity and is therefore optimistic. Both are meant for error localisation.
-- GCN numbers (0.555 stratified 5-fold, 0.53 held-out on generated netlists) come from the same 40
-  drawings that were used for training, so they are not generalisation accuracy.
