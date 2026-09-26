@@ -186,7 +186,6 @@ component references printed on the drawing (the output format itself does not s
 
 ## Limitations
 
-- Format validation only proves the file structure; it says nothing about connection correctness.
 - Component orientation is inferred from detector boxes. Rotated parts, box offsets and closely
   spaced terminals can mis-map a port, and the detector itself can miss or duplicate components.
 - The junction, stub and bottom-rail rules were calibrated on this dataset's drawing conventions
